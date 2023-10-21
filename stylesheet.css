@@ -1,0 +1,97 @@
+/*Background Main*/
+body{
+    margin: 0%;
+    background: rgb(12, 73, 75);
+    
+}
+/*Headr*/
+header{
+
+}
+/*Title*/
+#maintitle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    font: bold;
+}
+/*Button 1 Random Number*/
+#buttonlist{
+    height: 25%;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    font-style: bold;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 10px solid
+    
+}
+/**/
+.buttonlisten{
+    transform-origin: 50% 50%;
+	  animation: button 10s linear infinite;
+    
+}
+/*5deg anmimation*/
+@keyframes button {
+    0% {
+        transform:rotate(5deg)
+      }
+      25% {
+        transform:rotate(-5deg)
+      }
+      50%{
+        transform:rotate(5deg)
+      }
+      75% {
+        transform:rotate(-5deg)
+      }
+      100% {
+        transform:rotate(5deg) 
+      }
+}
+/*partygame1*/
+#partygame1{
+  font-family: Arial Black, Arial;
+  background: rgb(255,255,255);
+  font-style: bold;
+  font: bold;
+  font-size: 53px;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(221,18,97,1) 26%);
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+/*emoji scale*/
+#emoji1{
+  scale: 2;
+  padding: 10px;
+}
+/*partygame2*/
+#partygame2{
+  font-family: Arial Black, Arial;
+  background: rgb(255,255,255);
+  font-style: bold;
+  font: bold;
+  font-size: 53px;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(18, 106, 221) 26%);
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
