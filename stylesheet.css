@@ -73,7 +73,7 @@ header{
   scale: 2;
   padding: 10px;
 }
-/*partygame2*/
+/*Random Player*/
 #partygame2{
   font-family: Arial Black, Arial;
   background: rgb(255,255,255);
@@ -88,7 +88,36 @@ header{
   color: rgb(0, 0, 0);
   border-radius: 50px;
 }
-/**/
+/*Rotating Bottle*/
+#partygame2{
+  font-family: Arial Black, Arial;
+  background: rgb(255,255,255);
+  font-style: bold;
+  font: bold;
+  font-size: 53px;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(221, 18, 211) 26%);
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+/*tictaktoe*/
+#partygame3{
+  font-family: Arial Black, Arial;
+  background: rgb(255,255,255);
+  font-style: bold;
+  font: bold;
+  font-size: 54px;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(18, 106, 221) 26%);
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
 /**/
 /**/
 /**/
