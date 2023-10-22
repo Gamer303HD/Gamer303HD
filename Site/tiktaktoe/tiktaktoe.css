@@ -8,15 +8,15 @@ body{
 /*3 mal 3 Feld*/
 .button-container {
     width: 500px;
-    height: 500px;
+    height: 400px;
     position: relative;
     left: 50%; /* Horizontal zentrieren - Verschiebung um 50% der Containerbreite */
+    margin-top: -200px;
     transform: translateX(-50%);
-    
-    z-index: 1;
   }
 /*Buttons Settings*/
 button {
+  
     width: 230px;
     height: 230px;
     margin-top: 50%;
@@ -67,7 +67,16 @@ button {
         transform:rotate(2deg) 
       }
   }
-/**/
+/*Player X O*/
+#playerxo{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  
+}
 /**/
 /**/
 /**/
