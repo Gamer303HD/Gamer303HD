@@ -1,7 +1,7 @@
 /*Background Main*/
 body{
   margin: 0%;
-  background: rgb(12, 73, 75);
+  background: rgb(215, 213, 232);
 }
 /*Title*/
 #maintitle{
@@ -38,6 +38,7 @@ body{
   color: #ffffff;
   border-width: 10px;
   border-radius: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 /*Players*/
@@ -53,6 +54,7 @@ body{
   border-color: rgb(255, 255, 255);
   border-width: 10px;
   animation: animation1 10s linear infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*Randdom Number*/
 #numbers{
@@ -61,6 +63,7 @@ body{
   margin: 5%;
   color: white;
   animation: animation1 10s linear infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @keyframes animation1 {
   0% {
@@ -81,6 +84,7 @@ body{
 }
 #playerstitle{
 color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /**/
 #spin_button{
@@ -90,6 +94,7 @@ margin: auto;
 left: auto;
 top: 20px;
 margin-top: 200px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /**/
 #imgbottle{
@@ -98,12 +103,6 @@ animation: animation1 15s linear infinite;
 /**/
 /**/
 /**/
-/**//*Background Main*/
-body{
-  margin: 0%;
-  background: rgb(12, 73, 75);
-}
-
 /*Title*/
 #maintitle{
   text-align: center;
@@ -111,6 +110,7 @@ body{
   font-size: 100px;
   font: bold;
   animation: animation1 10s linear infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 #title1{
   color: rgb(171, 212, 250);
@@ -139,6 +139,7 @@ body{
   color: #ffffff;
   border-width: 10px;
   border-radius: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 /*Players*/
@@ -154,6 +155,7 @@ body{
   border-color: rgb(255, 255, 255);
   border-width: 10px;
   animation: animation1 10s linear infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*Randdom Number*/
 #numbers{
@@ -162,6 +164,7 @@ body{
   margin: 5%;
   color: white;
   animation: animation1 10s linear infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @keyframes animation1 {
   0% {
@@ -191,11 +194,9 @@ margin: auto;
 left: auto;
 top: 20px;
 margin-top: 200px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/*bottle*/
-#imgbottle{
-animation: animation1 15s linear infinite;
-}
+
 
 /**/
 /**/

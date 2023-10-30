@@ -151,9 +151,9 @@ while(a < rounds){
    delaytime.style.visibility = "Visible";
    txt1.style.visibility = "Visible";
    txt2.style.visibility = "Visible";
-   document.body.style.backgroundColor = "rgb(12, 73, 75)";
    spinner_button.style.visibility = "Visible";
    document.getElementById("maintitle").style.visibility = "Visible";
+   document.body.style.backgroundColor = "rgb(215, 213, 232)";
 }
 
 

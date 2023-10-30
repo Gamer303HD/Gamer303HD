@@ -2,6 +2,7 @@
 var a = 0;
 var b = 0;
 function gamer1(){
+   console.log("press");
     let spin = document.getElementById("player");
     var players = document.getElementById("player").value;
     if(players > 1 || players > 99){
@@ -27,10 +28,10 @@ async function  random_number(players) {
     spiner.style.visibility = "Hidden";
     spinner.style.visibility = "Hidden";
     
-    var min = 2;
+    var min = 1;
     var max = players;
     var colore = 0;
-    var min1 = 2;
+    var min1 = 1;
     spiner.style.borderColor = "transparent";
     for(i = 0; i < 100; i++){
         var rdmplayer = Math.round(Math.random() * (max - min)) + min;
@@ -83,26 +84,49 @@ async function  random_number(players) {
 var max1 = rdmplayer
 numbers.innerText = max1;
 var challangemin = 1;
-var challangemax = 13;
+var challangemax = 16;
 var minshot = 1;
-var maxshot = 3;
+var maxshot = 2;
+var minsip = 1;
+var maxsip = 2;
+var shotordrink = Math.round(Math.random() * (maxsip - minsip)) + minsip;
 var rdmchallange = Math.round(Math.random() * (challangemax - challangemin)) + challangemin;
 var player2 = Math.round(Math.random() * (max1 - min1)) + min1;
+
+if(maxsip == 1){
+   shotordrink = "Shot's"
+}else if(maxsip == 2){
+   shotordrink = "Schlücke"
+}
+if(player2 == rdmplayer){
+   var player2 = Math.round(Math.random() * (max1 - min1)) + min1;
+}
+
 var shotsnumber = Math.round(Math.random() * (maxshot - minshot)) + minshot;
 if(shotsnumber == player2){
    var shotsnumber = Math.round(Math.random() * (maxshot - minshot)) + minshot;
-}numbers.style.visibility = "Hidden";
+}
+
+if(shotsnumber == 1){
+   if(maxsip == 1){
+      shotordrink = "Shot"
+   }else if(maxsip == 2){
+      shotordrink = "Schluck"
+   }
+}
+
+numbers.style.visibility = "Hidden";
 numbers.style.scale = "1";
 playerstitle.style.visibility = "Visible";
 spiner.style.visibility = "Visible";
  if(rdmchallange == 1){
-     alert("Spieler  " + rdmplayer + "  Verteile " + shotsnumber + " Shot's");
+     alert("Spieler  " + rdmplayer + "  Verteile " + shotsnumber + " " + shotordrink);
  }else if(rdmchallange == 2){
     alert("Spieler  " + rdmplayer + "  trinkst einen Shot mit der Nummer  " + player2);
  }else if(rdmchallange == 3){
-    alert("Spieler  " + rdmplayer + "  Mache Armdrücken gegen Nummer  " + player2 + "der Verlierer Trinkt " + shotsnumber + "Shot's");
+    alert("Spieler  " + rdmplayer + "  Mache Armdrücken gegen Nummer  " + player2 + "der Verlierer Trinkt " + shotsnumber + " " + shotordrink);
  }else if(rdmchallange == 4){
-    alert("Spieler  " + rdmplayer + "  Mache einen Handstand. Wenn du es nicht schaffst, trinkst du " + shotsnumber + " Shot's");
+    alert("Spieler  " + rdmplayer + "  Mache einen Handstand. Wenn du es nicht schaffst, trinkst du " + shotsnumber + " " + shotordrink);
  }else if(rdmchallange == 5 && b < 2){
     alert("Spieler  " + rdmplayer + "  Trink ein Wasser, du brauchst es wahrscheinlich");
     b++;
@@ -111,18 +135,24 @@ spiner.style.visibility = "Visible";
  }else if(rdmchallange == 7){
     alert("Spieler  " + rdmplayer + "  Leere das Glas von der Nummer  " + player2);
  }else if(rdmchallange == 8){
-    alert("Spieler  " + rdmplayer + "  Sing ein Lied oder trink.");
+    alert("Spieler  " + rdmplayer + "  Sing ein Lied oder trink " + shotsnumber + " " + shotordrink);
  }else if(rdmchallange == 9 && a < 2){
     alert("Spieler  " + rdmplayer + "  Mystery Shot, Deine Mitspieler mischen dir einen Shot aus beliebigen Getränken.");
     a++;
  }else if(rdmchallange == 10){
-    alert("Spieler  " + rdmplayer + "  Du trinkst " + shotsnumber + " Shot's.");
+    alert("Spieler  " + rdmplayer + "  Du trinkst " + shotsnumber + " " + shotordrink);
  }else if(rdmchallange == 11){
     alert("Spieler  " + rdmplayer + "  Tausche dein Getränk mit der Person mit dem vollsten Glas");
  }else if(rdmchallange == 12){
-    alert("Spieler  " + rdmplayer + "  verteile 2 Shots");
+    alert("Spieler  " + rdmplayer + "  verteile 2 " + shotordrink + "!");
  }else if(rdmchallange == 13){
    alert("Spieler  " + rdmplayer + "  Tausche dein Getränk mit dem Speiler Nummer  " + player2);
+ }else if(rdmchallange == 14){
+   alert("Spieler " + rdmplayer + " mische dem Spieler " + player2 + "Einen starken drink zusammen")
+ }else if(rdmchallange == 15){
+   alert("Spieler " + rdmplayer + " tausche deinen Namen mit Spieler " + player2 +" wen der name falsch gesagt wird trink!")
+ }else if(rdmplayer == 16){
+   alert("Hat der Spieler nummer " + rdmplayer + " einen Freund oder Freundin dan trink!")
  }
  spinner.style.visibility = "Visible";  
  numbers.style.visibility = "Visible"; 

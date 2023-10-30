@@ -1,19 +1,20 @@
+
+
 /*Background Main*/
 body{
     margin: 0%;
-    background: rgb(12, 73, 75);
+    background: rgb(215, 213, 232);
     
 }
 /*Headr*/
-header{
 
-}
 /*Title*/
 #maintitle{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 140px;
     font: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*Button 1 Random Number*/
 #buttonlist{
@@ -38,19 +39,19 @@ header{
 /*5deg anmimation*/
 @keyframes button {
     0% {
-        transform:rotate(5deg)
+        transform:rotate(3deg)
       }
       25% {
-        transform:rotate(-5deg)
+        transform:rotate(-3deg)
       }
       50%{
-        transform:rotate(5deg)
+        transform:rotate(3deg)
       }
       75% {
-        transform:rotate(-5deg)
+        transform:rotate(-3deg)
       }
       100% {
-        transform:rotate(5deg) 
+        transform:rotate(3deg) 
       }
 }
 /*partygame1*/
@@ -67,6 +68,8 @@ header{
   height: 300px;
   color: rgb(0, 0, 0);
   border-radius: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
 }
 /*emoji scale*/
 #emoji1{
@@ -80,13 +83,14 @@ header{
   font-style: bold;
   font: bold;
   font-size: 53px;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(18, 106, 221) 26%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(113, 174, 253) 26%);
   text-align: center;
   margin: auto;
   width: 800px;
   height: 300px;
   color: rgb(0, 0, 0);
   border-radius: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*Rotating Bottle*/
 #partygame2{
@@ -95,13 +99,14 @@ header{
   font-style: bold;
   font: bold;
   font-size: 53px;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(221, 18, 211) 26%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(255, 120, 248) 26%);
   text-align: center;
   margin: auto;
   width: 800px;
   height: 300px;
   color: rgb(0, 0, 0);
   border-radius: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*tictaktoe*/
 #partygame3{
@@ -110,13 +115,14 @@ header{
   font-style: bold;
   font: bold;
   font-size: 54px;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(18, 106, 221) 26%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(255, 245, 106) 26%);
   text-align: center;
   margin: auto;
   width: 800px;
   height: 300px;
   color: rgb(0, 0, 0);
   border-radius: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /**/
 /**/
@@ -124,3 +130,9 @@ header{
 /**/
 /**/
 /**/
+
+@media only screen and (min-width: 1080px) {
+  #emoji1{
+    font-size: 95px;
+  }
+}

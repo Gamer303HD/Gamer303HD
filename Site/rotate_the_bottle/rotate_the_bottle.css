@@ -1,7 +1,8 @@
 /*Background Main*/
 body{
     margin: 0%;
-    background: rgb(12, 73, 75);
+    background: rgb(215, 213, 232);
+
 }
 /*Headr*/
 header{
@@ -27,6 +28,7 @@ header{
 }
 /*Spin Input Button*/
 #spin_button{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
     align-items: center;
     height: 300px;
@@ -43,6 +45,7 @@ header{
 }
 /*button_settings Input Button*/
 #button_settings{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   align-items: center;
   height: 300px;
@@ -70,6 +73,7 @@ header{
     border-color: rgb(255, 255, 255);
     border-width: 10px;
     animation: animation1 10s linear infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*Randdom Number*/
 #numbers{
@@ -78,6 +82,7 @@ header{
     margin: 5%;
     color: white;
     animation: animation1 10s linear infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @keyframes animation1 {
     0% {
@@ -107,6 +112,7 @@ header{
   left: auto;
   top: 20px;
   margin-top: 200px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /**/
 #imgbottle{
@@ -128,17 +134,18 @@ header{
   color: white;
   text-align: center;
   align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /*rounds textfeld*/
 #delayrounds{
   width: 280px;
   height: 200px;
   font-size: 150px;
-  background-color: #8cfcc425;
+  background: rgb(215, 213, 232);
   color: white;
   text-align: center;
   align-items: center;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /* CSS-Styling für die Alert-Box */
 .custom-alert {

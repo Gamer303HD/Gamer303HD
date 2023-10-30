@@ -42,12 +42,6 @@ function main(selected){
     }
 }
 
-
-
-
-
-
-
 function player1(playerfield1){
     const xo = document.getElementById("xo");
     xo.innerHTML = "Player: X";
@@ -122,10 +116,7 @@ function player1(playerfield1){
 
 }
 
-
-
 function player2(playerfield2){
-
     fieldall = field01 + field02
     field01.style.color = "white";
     const f1 = field01.innerHTML;
@@ -137,7 +128,7 @@ function player2(playerfield2){
     const f7 = field01.innerHTML;
     const f8 = field01.innerHTML;
     const f9 = field01.innerHTML;
-    
+
     if(playerfield2 == 1 && a == true){
         field01.innerHTML = "O";
         xo.textContent  = "Player: X";
@@ -196,8 +187,6 @@ function player2(playerfield2){
     }
     
 }
-
-
 
 function finisher(){
     const f1 = field01.innerHTML;
