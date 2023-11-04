@@ -53,6 +53,56 @@ body{
         transform:rotate(3deg) 
       }
 }
+
+/*nummernfenster*/
+#nummernfenster {
+  font-family: Arial Black, Arial;
+  background: rgb(255,255,255);
+  font-style: bold;
+  font: bold;
+  font-size: 54px;
+  background-color: rgb(255, 106, 106);
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+/*eingabe*/
+#eingabe {
+  font-family: Arial Black, Arial;
+  display: block;
+  width: 710px;
+  text-align: center;
+  height: 300px;
+  font-size: 90px;
+  border-radius: 50px;
+}
+/*okay button*/
+#ok-button {
+  font-family: Arial Black, Arial;
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  margin-top: 100px;
+  background-color: rgb(255, 106, 106);
+  color: #fff;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+
+
 /*partygame1*/
 #partygame1{
   font-family: Arial Black, Arial;
@@ -141,11 +191,14 @@ body{
 }
 /**/
 /**/
-/**/
-
-
+/*Pc Auflösung*/
 @media only screen and (min-width: 1080px) {
   #emoji1{
     font-size: 95px;
   }
 }
+
+
+
+
+

@@ -3,7 +3,6 @@ var a = 0;
 var rounds = document.getElementById("delayrounds").value;
 let delaytimer1 = document.getElementById("delaytime").value;
 
-
 const customAlert = document.getElementById('customAlert');
     const closeButton = document.getElementById('closeButton');
 
@@ -16,9 +15,6 @@ const customAlert = document.getElementById('customAlert');
       customAlert.style.display = 'none';
       document.getElementById("imgbottle").style.visibility = "Visible";
     }
-
-
-
 
 function spinner(number){
    document.getElementById("maintitle").style.visibility = "Hidden";
@@ -137,7 +133,7 @@ while(a < rounds){
          }else if(y == 50){
             document.body.style.backgroundColor = "#dddb12";
          }else if(y == 60){
-            document.body.style.backgroundColor = "#dd7f12";
+            document.body.style.backgroundColor = "rgb(215, 213, 232)";
             y = 0;
 
          }

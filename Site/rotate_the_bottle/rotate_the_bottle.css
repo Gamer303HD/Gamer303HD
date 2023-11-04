@@ -1,8 +1,7 @@
 /*Background Main*/
 body{
     margin: 0%;
-    background: rgb(215, 213, 232);
-
+    background-color: rgb(215, 213, 232);
 }
 /*Headr*/
 header{

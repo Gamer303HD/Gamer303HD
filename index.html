@@ -10,14 +10,20 @@
     <title>DrunkParty.de</title>
 </html>
 <header>
+
   <div class="buttonlisten" style="align-items: center; text-align: center;">
     <h1 id="maintitle" style="color: #ffffff;">Drunk Party</h1>
  
+    <div id="nummernfenster">
+      <input type="number" id="eingabe" placeholder="Player 2 bis 99">
+      <button id="ok-button" onclick="schließeFenster()">Okay</button>
+    </div>
+    
     <div id="partygame1" onclick="window.location.href='Site/random_player/random_palyer.html'"> 
       <h1 id="emoji1">&#128526</h1>
       <a>Random Player</a>
     </div>
-
+    
     <div id="partygame2" onclick="window.location.href='/Site/rotate_the_bottle/rotate_the_bottle.html'"> 
       <h1 id="emoji1">🍾</h1>
       <a>Rotate Bottle</a>
@@ -34,8 +40,6 @@
     </div>
 
 
-
-    
     <!-- <button id="buttonlist" onclick="window.location.href='/Site/rdm_game1.html'">Random Nummer</button> -->
   </div>
 
