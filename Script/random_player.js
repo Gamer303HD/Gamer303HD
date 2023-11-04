@@ -1,20 +1,20 @@
 //Game Nummer 1
 var a = 0;
 var b = 0;
+var spiner = document.getElementById("player");
+spiner.innerHTML = players;
+
 function gamer1(){
    console.log("press");
     let spin = document.getElementById("player");
-    var players = document.getElementById("player").value;
+    let players = window.localStorage.getItem("playerCounterKey");
+    console.log(players)
     if(players > 1 || players > 99){
         console.log("Selected Game 1"); 
         random_number(players);
+        
     }else{
-        spin.innerText = "0";
-        if(players == "0" || players == "1"){
-            alert("Bitte geben sie minimal 2 Spieler an und maximal 99 Spieler!")
-        }else{
-            alert("Bitte geben sie eine Player anzahl in das weiße Kästchen an!")
-        }
+
     }
 }
 async function  random_number(players) {
@@ -154,6 +154,7 @@ spiner.style.visibility = "Visible";
  }else if(rdmplayer == 16){
    alert("Hat der Spieler nummer " + rdmplayer + " einen Freund oder Freundin dan trink!")
  }
+ spiner.innerHTML = players;
  spinner.style.visibility = "Visible";  
  numbers.style.visibility = "Visible"; 
 }
